@@ -1,0 +1,7680 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hi there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi how are you?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "my name is charlie",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "charlie",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is elliot",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "elliot",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "hi my name is dan",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "value": "dan",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "i am russo",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "russo",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am vic",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "vic",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "i am Vikalp",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Vikalp",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I want to know how to see my basic details",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 26,
+            "end": 42,
+            "value": "my basic details",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "how do i see my profile",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "my profile",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "how do  i see my email",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "my email",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "how do i see my linkedin profile",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "linkedin ",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "how do i see my salary account",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 30,
+            "value": "salary account",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "where can i find my address?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "address",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "Hi from where do I see my phone number",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 38,
+            "value": "my phone number",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "From where could I see my details",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "my details",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "hi from where could i see my information?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 26,
+            "end": 40,
+            "value": "my information",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see my info. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "my info",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "hi from where could i see my corrospondance?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 26,
+            "end": 43,
+            "value": "my corrospondance",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to know from where can i see my contact details?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 36,
+            "end": 54,
+            "value": "my contact details",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "hi from where can i see my payment info?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 39,
+            "value": "payment info",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "hi from where can i see my basic details?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 40,
+            "value": "my basic details",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "hi i want to see my profile. From where can I do it?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 27,
+            "value": "my profile",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "hi from where can i see my details?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "my details",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "hi from where can i see my information?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 38,
+            "value": "my information",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "hi i want to see my info. From where can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "my info",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "hi i want to see my contact details. From where can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 35,
+            "value": "my contact details",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "hi i want to see my contacts. From where can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "my contacts",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "hi i want to see my phone number. From where can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 32,
+            "value": "my phone number",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "hi i want to see my email. From where can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "my email",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "hi i want to see my corrospondence. From where can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 34,
+            "value": " my corrospondence",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "hi from where can i see my payment info?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 39,
+            "value": "payment info",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "hi from where can i see my payment information?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 46,
+            "value": "payment information",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "hi from where can i see my salary account?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 41,
+            "value": "salary account",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "hi i want to see my account details. From where can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 35,
+            "value": "account details",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "hi i want to see information about my position. From where can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 35,
+            "end": 46,
+            "value": "my position",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see my department. From where can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "my department",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see my employment information. From where can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 39,
+            "value": "employment information",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see my social profiles. From where can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 32,
+            "value": "social profiles",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see my social details. From where can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 31,
+            "value": "social details",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see my facebook profile. From where can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "facebook",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see my twitter profile. From where can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "twitter",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see my instagram profile. From where can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "instagram",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "From where can i see my linkedin profile?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "linkedin",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "From where can I see my address details?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "address",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "My name is Rohit.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Rohit",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Ramesh.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Ramesh",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Vivian",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Vivian",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is sushil",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "sushil",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is satish",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "satish",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is jai",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "jai",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is simran",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "simran",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is karan",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "karan",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "hi my name is ankush",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "ankush",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is nikhil",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "nikhil",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is ashutosh",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "ashutosh",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is meenal",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "meenal",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is vikram",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "vikram",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is amit",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "amit",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is ranvir",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "ranvir",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is devash",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "devash",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "hi i am gurpreet",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "gurpreet",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "hi i am raman",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "raman",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "hi i am sean",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "sean",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "hi i am frank",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "frank",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "hi my name is priya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "priya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "hi my name is Tanya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Tanya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "hi my name is Priyanka",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "Priyanka",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "hi my name is Divya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Divya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "hi my name is Tanvi",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Tanvi",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "hi my name is Ishita",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "Ishita",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "hi my name is Vani",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "Vani",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "hi my name is Anjali",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "Anjali",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "hi my name is Shreya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "Shreya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "hi my name is Riya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "Riya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "i am Aishwarya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "value": "Aishwarya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "i am Gayatri",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Gayatri",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "i am Varsha",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Varsha",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "i am Ira",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "Ira",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Sanjana",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Sanjana",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is Niharika",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "Niharika",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is Nikita",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Nikita",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Natasha",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Natasha",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "i am Neha",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Neha",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "i am Shivangi",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "Shivangi",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is Ramya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Ramya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "i am Isha",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Isha",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Ananya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Ananya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Shivani",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Shivani",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Sakshi",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Sakshi",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Ashwini",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Ashwini",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "i am Suhani",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Suhani",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "i am Leah",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Leah",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Pavithra",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "Pavithra",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Seema",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Seema",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Anusha",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Anusha",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Simran",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Simran",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Nishi",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Nishi",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Anushri",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Anushri",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Ayushi",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Ayushi",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Radhika",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Radhika",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "i am Tanu",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Tanu",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Krithika",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "Krithika",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Anisha",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Anisha",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is Akansha",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Akansha",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Sadaf",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Sadaf",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Nishita",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Nishita",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Diya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Diya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Diya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Diya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "i am Siya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Siya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "i am Abigail",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Abigail",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Kalyani",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Kalyani",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Rishita",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Rishita",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Mary",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Mary",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is Sara",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Sara",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Prachi",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Prachi",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Nidhi",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "Nidhi",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Rhea",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Rhea",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Katherine",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "value": "Katherine",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Arti",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Arti",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Manisha",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Manisha",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Mahima",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Mahima",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Aditi",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "Aditi",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Tisha",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Tisha",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Swati",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "Swati",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Dia",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "Dia",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Ria",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "Ria",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Anu",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "Anu",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Neelam",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Neelam",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Nisha",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "Nisha",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Mitali",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Mitali",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Khushi",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Khushi",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is Lily",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Lily",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is Rashi",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Rashi",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Diksha",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Diksha",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Niti",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Niti",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Rahul",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Rahul",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is Abhishek",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "Abhishek",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "i am Aditya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Aditya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is Amit",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Amit",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Mahesh",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Mahesh",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Rohit",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "Rohit",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is Yash",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Yash",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Ankit",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "Ankit",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Shyam",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Shyam",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Deepak",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Deepak",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Aryan",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "Aryan",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Raj",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "Raj",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Arjun",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "Arjun",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Manoj",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Manoj",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Ankur",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Ankur",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Akash",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "Akash",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Karan",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Karan",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Rakesh",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Rakesh",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Sam",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "Sam",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Naveen",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Naveen",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "You can call me Ashish",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "Ashish",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "You can call me Vinay",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "Vinay",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "You can call me Parth",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "Parth",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Mayank",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Mayank",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "You can call me Vivek",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "Vivek",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "You can call me Vivek",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "Vivek",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Aaditya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Aaditya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "You can call me Neeraj",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "Neeraj",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "You can call me Kumar",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "Kumar",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Abhinav",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Abhinav",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Pranav",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Pranav",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Rohan",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Rohan",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Prateek",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Prateek",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Raghav",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Raghav",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "vikalp",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "vikalp",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "nitin",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "nitin",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "priya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "priya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "rahul",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "rahul",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "tanya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "tanya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Abhishek",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Abhishek",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Priyanka",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Priyanka",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Aditya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Aditya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Divya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Divya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Tanvi",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Tanvi",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Mahesh",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Mahesh",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Ishita",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ishita",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Rohit",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Rohit",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Vani",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Vani",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Yash",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Yash",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Anjali",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Anjali",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "From where can I see archieved employees",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "value": "archieved ",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see all stored employees. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "stored ",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see employee records. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 30,
+            "value": "employee records",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "Can you  show me the records of employees?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 41,
+            "value": "records of employees",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see record of employees. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 33,
+            "value": "record of employees",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to view employee catalogue. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "catalogue",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see employee log. Can you tell me where I can see that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "employee log",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see hr docs. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "hr docs",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see hr documents. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "hr documents",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see HR docs. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "HR docs",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "Where can I see information on HR documents?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 31,
+            "end": 43,
+            "value": "HR documents",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to create a logo for my organization. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "logo ",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to change logo for my organization. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "logo",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see asset details. Can you show me where to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "asset details",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see assets details. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 28,
+            "value": "assets details",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see the details of assets. Can you show me where I can do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 35,
+            "value": "details of assets",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see the details of asset. Can you show me where I can do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 34,
+            "value": "details of asset",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see the details of assets. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 35,
+            "value": "details of assets",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "Where can I see expense report?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 30,
+            "value": "expense report",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see expense report. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 28,
+            "value": "expense report",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I wish to see my expenses report. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 32,
+            "value": "expenses report",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "From where can I see report of expenses?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 39,
+            "value": "report of expenses",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see expenses of employees. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 35,
+            "value": "expenses of employees",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to enter my details after being hired. From where can I see that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 39,
+            "end": 44,
+            "value": "hired",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to enter my hiring details. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "hiring ",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to enter my hire details. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "hire",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to enter an internal transfer request. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "transfer",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to create a legal entity for my organization. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "entity",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to create a new location. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "location",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see the structure of my organization. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "structure",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see the structure of my organization. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 34,
+            "end": 46,
+            "value": "organization",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see announcements for my organization. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "announcements",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see announcement for my organization. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "announcement",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see the type of announcement. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 38,
+            "value": "type of announcement",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see the types of announcements. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 40,
+            "value": "types of announcements",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see the types of announcements. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 40,
+            "value": "types of announcements",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see the type of announcements. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 39,
+            "value": "type of announcements",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "From where can I see the types of announcement?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 46,
+            "value": "types of announcement",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my pay slip. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "pay slip",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my pay slips. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "pay slips",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see positions in my organization. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "positions",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my qualifications. From where can I  do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 31,
+            "value": "qualifications",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my qual. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "qual",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my qualification. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 30,
+            "value": "qualification",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to view region. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "region",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to view regions. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "regions",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see reg. From where can  I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "value": "reg",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to apply for reimbursement. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 33,
+            "value": "reimbursement",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "From where can I apply for reimb?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "reimb",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to apply for rembursement. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 32,
+            "value": "rembursement",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to apply for rembersment. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 31,
+            "value": "rembersment",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to create a new reimbursement category. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 45,
+            "value": "reimbursement category",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to create a new category of reimbursement. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 48,
+            "value": "category of reimbursement",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see all reimbursement categories. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 42,
+            "value": "reimbursement categories",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see religion details. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 30,
+            "value": "religion details",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see rel details. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "value": "rel",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to create a sub-department. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 33,
+            "value": "sub-department",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see sub-dept. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "sub-dept",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see sub department details. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 28,
+            "value": "sub department",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see sub dept details. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "sub dept",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my timesheet. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "timesheet",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my time sheets. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "time sheets",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my time sheet. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 27,
+            "value": "time sheet",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my times sheet. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "times sheet",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my work permit details. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "work permit",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to get a permit for work. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 31,
+            "value": "permit for work",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my visa details. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "visa",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to view user guide settings. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 25,
+            "value": "user guide",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see benefits. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "bene",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my benefit details. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "benefit",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to request benefits. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 26,
+            "value": "request benefits",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to enter benefit request. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 31,
+            "value": "benefit request",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see the number of users. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "users",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see the number of employees. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 37,
+            "value": "number of employees",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see employee count. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 28,
+            "value": "employee count",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see a list of employees. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "list",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see the record of employees. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "record",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see directory of employees. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "directory",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see user guide. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "user guide",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see t&c. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "value": "t&c",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see the terms and conditions. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 38,
+            "value": "terms and conditions",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see the t and c. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "t and c",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "From where do I approve in-out time?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 30,
+            "value": "approve in-out",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "From where do I approve time?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "approve time",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to enter a business travel request. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 33,
+            "value": "business travel",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to enter a request to travel for business. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 29,
+            "end": 48,
+            "value": "travel for business",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to enter a request to travel due to business. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 29,
+            "end": 51,
+            "value": "travel due to business",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to enter a comp-off request. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "comp",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to assign an assignment to an employee. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 30,
+            "value": "assignment",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to give assignments to employees. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 26,
+            "value": "assignments",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to create a employee group. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "group",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to assign group rules. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "rules",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to view my leave quota. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 29,
+            "value": "leave quota",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see holidays. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "holidays",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see holiday. From where do I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "holiday",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see in-out time. From where do I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "in-out",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see inout time. From where do I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "inout",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my in out time. From where do I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "in out",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to create a leave group. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "leave group",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to create a group leave. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "group leave",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to create leave types. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "leave types",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see create leaves. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "create leaves",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to apply for leaves. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "leaves",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to apply for a leave. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "leave",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to edit in-out time. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 21,
+            "value": "edit in-out",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to reenter in-out time. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 24,
+            "value": "reenter in-out",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to edit in out time. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 21,
+            "value": "edit in out",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to re-enter in out time. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 25,
+            "value": "re-enter in out",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to re-enter in-out time. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 25,
+            "value": "re-enter in-out",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to view all allocated shifts. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "allocated",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to view shifts allocation. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 32,
+            "value": "allocation",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "From where can I see assigned shifts?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "assigned",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see assign shifts. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "assign",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to create a new shift. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "new shift",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "From where can I add candidates?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 31,
+            "value": "add candidates",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to add a candidate. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 25,
+            "value": "add a candidate",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to modify candidate. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 26,
+            "value": "modify candidate",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to modify candidates. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 27,
+            "value": "modify candidates",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "From where do I add/modify candidate?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 36,
+            "value": "add/modify candidate",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "From where do I  add candidates?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 31,
+            "value": "add candidates",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "From where do I add candidate?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 29,
+            "value": "add candidate",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "From where can I see the status of external clients?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 44,
+            "end": 51,
+            "value": "clients",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "From where can I see the status of an external client?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 47,
+            "end": 53,
+            "value": "client",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want give rating to an interview candidate. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "interview",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to schedule an interview with a candidate. How can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "schedule",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to create a job requisition. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "requisition",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to view loi. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "loi",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to view the letter of intent. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "letter",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to propose an offer to a candidate. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "offer",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see the posted jobs. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "posted",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see recruitment stats. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "stats",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see recruitment statistics. From where do I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "statistics",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to upload resumes. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "resumes",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to upload resume. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "resume",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to view tenures. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "tenures",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see tenure. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "tenure",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to create a repo for resumes. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "repo",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to create a repository for resumes. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "repository",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to submit my resignation. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 31,
+            "value": "resignation",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to resign. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "resign",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to terminate someone. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "terminate",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see through employee termination. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 31,
+            "end": 42,
+            "value": "termination",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I was fired. From where do I submit my resignation request?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "fired",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "Someone has to fire me. But I will resign first. From where do I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "fire",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "From where do I access employee seperation process?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 32,
+            "end": 42,
+            "value": "seperation",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to view a purchase order. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "purchase",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "How do I access purchase order approval?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 39,
+            "value": "purchase order approval",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "How do I approve purchase order?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 31,
+            "value": "approve purchase order",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "How do I attach files to my purchase order?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "attach",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to create an attachment for my purchase order. How do I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 30,
+            "value": "attachment",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to create a purchase order request. How do I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 41,
+            "value": "purchase order request",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I wan to to request for purchase order. How can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 38,
+            "value": "request for purchase order",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to assign task to my employees. From where do I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 21,
+            "value": "assign task",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my to do list. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "to do",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my to-do list. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "to-do",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my tasks. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "tasks",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my project assets. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "project",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my project timeline. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 33,
+            "value": "project timeline",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my project workflow. From where can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 33,
+            "value": "project workflow",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my task backlog. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "backlog",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my delay in task. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 30,
+            "value": "delay in task",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see all tasks I am linked to. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "all tasks",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my task details. From where can I do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "task details",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "How is the weather in london?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "london",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I am going to travel to delhi. How is the weather there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "delhi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I am going to travel to dallas. How is the weather there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "dallas",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I am going to austin. How is the weather there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "austin",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "How is the weather in houston?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "houston",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "How is the weather in chennai?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I want to know the weather in mandi?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "mandi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "how is the weather in manali?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "manali",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "how is the weather in shimla?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "shimla",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I am going to kasol. How is the weather there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "kasol",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I have a meeting in dalhousie. How is the weather there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 29,
+            "value": "dalhousie",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i am travelling to Dharamshala. How is the weather there? ",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "Dharamshala",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I am travelling to Ladakh. How is the weather there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "Ladakh",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "How is the weather in Gulmarg?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "Gulmarg",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "How is the weather in Rishikesh?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Rishikesh",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I am travelling to Dehradun. How is the weather there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "Dehradun",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "how is the weather in Agra?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "Agra",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "how is the weather in jodhpur?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "jodhpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I have made plans to travel to Udaipur. How is the weather there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Udaipur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I am going for a vacation to Ranthambore. How is the weather there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 29,
+            "end": 40,
+            "value": "Ranthambore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I have a meeting in Jaipur. I want to know how is the weather there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Jaipur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i am travelling to new york. I am wondering how is the weather there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "new york",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I am travelling to las vegas. I want to know how is the weather there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "las vegas",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i am travelling to san diego. I want to know how the weather is there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "san diego",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i am travelling to sundernagar. I want to know how is the weather there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "sundernagar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i am travelling to san francisco. I want to know how is the weather there",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 32,
+            "value": "san francisco",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i am travelling to los angeles. I was wondering how is the weather there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "los angeles",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i was wondering how is the weather in san jose?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 38,
+            "end": 46,
+            "value": "san jose",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i am wondering how is the weather in santa barbara. Can you tell me that?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 37,
+            "end": 50,
+            "value": "santa barbara",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i am travelling to santa monica. I am wondering how the weather is there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 31,
+            "value": "santa monica",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i have a meeting in palm springs. I was wondering how the weather is there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 32,
+            "value": "palm springs",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i have another doubt.",
+        "intent": "another_doubt",
+        "entities": []
+      },
+      {
+        "text": "I have one more question.",
+        "intent": "another_doubt",
+        "entities": []
+      },
+      {
+        "text": "could I ask another  question?",
+        "intent": "another_doubt",
+        "entities": []
+      },
+      {
+        "text": "thanks that was helpful",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "oh thanks. That was helpful",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "ok i got it now",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "thanks for helping me",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "great! thank you",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "i can't thank you enough",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "i have a doubt",
+        "intent": "another_doubt",
+        "entities": []
+      },
+      {
+        "text": "i got a question for you",
+        "intent": "another_doubt",
+        "entities": []
+      },
+      {
+        "text": "can i ask you a question?",
+        "intent": "another_doubt",
+        "entities": []
+      },
+      {
+        "text": "how are you?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "how are you doing?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "how you doing?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "how the hell are you?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "i am good how are you?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "how on earth are you?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "how have you been?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "how's everything?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "how is everything?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "how is it going?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "how are things going?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "what's going on?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "what's new?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "whassup?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "what are you up to?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "good morning!",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good afternoon",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "farewell",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "have a good day",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "bye!",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "bye bye!",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "Later",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "see you later",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "all right then",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "catch you later",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "i'm out",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "smell you later",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "be seeing you",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "thanks a million",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "thank you",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "thanks so much",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "that's very kind of you",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "you made my day",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "you're awesome",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "i don't know what to say",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "how thoughtful of you!",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "I couldn't have done this without you.",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "i really want to thank you for your help",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "i really appreciate the information you have given",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "I'm really grateful for your help.",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "this means a lot to me",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "thanks for having my back",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "i owe you one",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "thank you for your guidance",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "thanks for explaining this to me",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "thanks for your prompt reply",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "i am grateful for your assistance",
+        "intent": "help_recieved",
+        "entities": []
+      },
+      {
+        "text": "hey man!",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "i'm off",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "i look forward to our next meeting",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "it was nice talking to you",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "it was nice seeing you again",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "i'm out of here",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "i gotta jet",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "peace out",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "i gotta run",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "i must be going",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "so long!",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "all right then!",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "see ya soon",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "see you soon",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "have a good one",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "i am travelling to delhi for business. I want to know how the weather is there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "delhi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i have a business in london. I want to know how the weather is there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "london",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i am going to san fernando on business. I want to know how the weather is there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "san fernando",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "hi, how are you doing?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "how on earth are you?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "hi how is it hanging?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "hello there, how are you?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "hello there, how is it going?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "hi there, how are you?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "hi there, how are you doing?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "hi there, how you doing?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "hi there, how the hell are you?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "hi there, i am good how are you?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "hi, how on earth are you?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "hi there, how's everything?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "hi there, how is everything?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "hi there, how is it going?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "hello there, how are things going?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "hi there, what's going on?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "hi there, what's new?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "hi there, whassup?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "hello there, what are you up to?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "i am travelling to new york on business, i want to know how the weather is there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "new york",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i am travelling to austin, texas on business. I want to know how the weather is there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "austin",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i am travelling to albany, new york, i want to know how the weather is there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "albany",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i am travelling to  syracuse, new york, i want to know how the weather is there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "syracuse",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i am travelling to chandigarh, punjab on business, i want to know how the weather is there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "chandigarh",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i am travelling to shimla, himachal pradesh. I want to know how the weather is there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "shimla",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i am travelling to manali, himachal pradesh on business. I want to know how the weather is there?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "manali",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "no thanks",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "no thank you",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "that was all",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "that was enough",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "no not for now",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "maybe later",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "maybe tomorrow",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "maybe day after tomorrow",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "I want to know how are you?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "I want to know how are you doing?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "I want to know how you doing?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "I want to know how the hell are you?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "I want to know how on earth are you?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "I want to know how have you been?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "I want to know how's everything?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "I want to know how is everything?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "I want to know how is it going?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "I want to know how are things going?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "I want to know what's going on?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "I want to know what's new?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "I want to know whassup?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "I want to know what are you up to?",
+        "intent": "how_u_doing",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "bye bye",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "bye bye",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "bye bye black bird",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok goodbye",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, farewell",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, have a good day",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, take care",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, bye!",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, bye bye!",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, Later",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, see you later",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, have a good one",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, so long",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, all right then",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, catch you later",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, peace out",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, i'm out",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, smell you later",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, adios",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, ciao",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, au revoir",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, sayonara",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, be seeing you",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, i'm off",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, i look forward to our next meeting",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, it was nice talking to you",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, it was nice seeing you again",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, i'm out of here",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, i gotta jet",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, peace out",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, i gotta run",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, i must be going",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, i must be going",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, all right then!",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, see ya soon",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, see you soon",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "ok, that was all",
+        "intent": "int_thanksnconfirm",
+        "entities": []
+      },
+      {
+        "text": "what is your name?",
+        "intent": "your_name",
+        "entities": []
+      },
+      {
+        "text": "who are you?",
+        "intent": "your_name",
+        "entities": []
+      },
+      {
+        "text": "what is your given name?",
+        "intent": "your_name",
+        "entities": []
+      },
+      {
+        "text": "what is your god given name?",
+        "intent": "your_name",
+        "entities": []
+      },
+      {
+        "text": "what can i call you?",
+        "intent": "your_name",
+        "entities": []
+      },
+      {
+        "text": "who might you be?",
+        "intent": "your_name",
+        "entities": []
+      },
+      {
+        "text": "what is your good name?",
+        "intent": "your_name",
+        "entities": []
+      },
+      {
+        "text": "who are you?",
+        "intent": "your_name",
+        "entities": []
+      },
+      {
+        "text": "what on earth is your name?",
+        "intent": "your_name",
+        "entities": []
+      },
+      {
+        "text": "what the hell is your name?",
+        "intent": "your_name",
+        "entities": []
+      },
+      {
+        "text": "who the fuck are you?",
+        "intent": "your_name",
+        "entities": []
+      },
+      {
+        "text": "who on this cursed earth are you?",
+        "intent": "your_name",
+        "entities": []
+      },
+      {
+        "text": "what the hell should i call you?",
+        "intent": "your_name",
+        "entities": []
+      },
+      {
+        "text": "i want to find my phone no. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "phone no",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to change my residence. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 29,
+            "value": "residence",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see who is my manager. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "value": "my manager",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see who my hr is. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "my hr",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see my clear benefits. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 31,
+            "value": "clear benefits",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "how do i approve employee benefits?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 34,
+            "value": "approve employee benefits",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "how do i request my benefits?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "my benefits",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "how do i get benefits?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "get benefits",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to request benifits. how can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 26,
+            "value": "request benifits",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see my compensation. how can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 29,
+            "value": "my compensation",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see my salary structure. how can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 33,
+            "value": "salary structure",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to view my assets. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "my assets",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see who is my HR. how can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "my HR",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to create employee bands. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 31,
+            "value": "employee bands",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "how do i see bands?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "bands",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see different blood groups. How do i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "blood",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "how do i check my bonus?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "bonus",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "how do i see different bu?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 25,
+            "value": "bu",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to set up different business units. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 41,
+            "value": "business units",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see contractor details. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "contractor",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to set cost center details. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "cost center",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to set cost centre details. how can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 33,
+            "value": "centre details",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see my country details. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "country",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see cc details. how can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 16,
+            "value": "cc",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see currency details. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "currency",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see different currencies. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "currencies",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see different curr. How would i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "curr",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see all the departments. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 33,
+            "value": "departments",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "how can i see department details?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "department",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see all the depts. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "depts",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see all the designations. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 34,
+            "value": "designations",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see desg details. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "desg",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see education details. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "education",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see edu. How can i see that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "value": "edu",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to create documents for employees. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "documents",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to enter my aadhar details. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "aadhar",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to enter my degree as my document. From where can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "degree",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want enter my pan details. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "pan",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to enter my PAN details. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 22,
+            "value": "PAN",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to enter my ration card as my document. From where can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "ration",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to include my voter card as my document. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "voter",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to enter my passport as my document. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "passport",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to create an expense request. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 35,
+            "value": "expense request",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my expenses. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "my expenses",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to approve expenses of an employee. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 26,
+            "value": "approve expenses",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to approve expense of an employee. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 25,
+            "value": "approve expense",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to edit my family details. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "my family",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to enter my family details. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 33,
+            "value": "family details",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to enter my family details. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "family",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see all employees. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "all employees",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see details of employees. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "employees",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to create ratings for employees. How do i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "ratings",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to enter rating for employees. How do i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "rating",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to create a referral request. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 35,
+            "value": "referral request",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see all the referrals. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "referrals",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to approve a referral. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 28,
+            "value": "approve a referral",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see all the rewards. Show me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "rewards",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to create a reward category. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "reward",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to create a recognition category. How do i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "recognition",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to create a rewards and recognitions category. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 43,
+            "value": "rewards and recognitions",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to add a language. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "language",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see lang details. how can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "lang",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see archived employees. How could i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "archived",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see stored employees. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "stored",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see cost center incharge. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 34,
+            "value": "cost center incharge",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see detail of assets. I was wondering how i could do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 30,
+            "value": "detail of assets",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see expense reports. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 29,
+            "value": "expense reports",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to create a probation group. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "probation",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to generate a confirmation letter. How do i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 33,
+            "value": "confirmation",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to approve an employee after probation. How do i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 45,
+            "value": "approve an employee after probation",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to approve probation. How do i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 27,
+            "value": "approve probation",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to set a probation workflow. Tell me how do i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 34,
+            "value": "probation workflow",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to set a probation approval workflow. Tell me how to do that/",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 43,
+            "value": "probation approval workflow",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to set a duration of probation. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 37,
+            "value": "duration of probation",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to set a period of probation. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 35,
+            "value": "period of probation",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to set a probation duration. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 34,
+            "value": "probation duration",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to set a time of probation. Walk me on how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 33,
+            "value": "time of probation",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to set a new goal. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "goal",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to set new targets for my team. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "targets",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to set new targets for my team. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "targets",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to set a plan for my team. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "plan",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see previous goals. How can i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 28,
+            "value": "previous goals",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see my previous goals. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 31,
+            "value": "previous goals",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see my target records. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 31,
+            "value": "target records",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "how can i access goals library?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 30,
+            "value": "goals library",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "tell me how to access targets library?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 37,
+            "value": "targets library",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to access goal record. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "goal record",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to track my goals. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 24,
+            "value": "track my goals",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to track my targets. Show me how",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 26,
+            "value": "track my targets",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see my investment declaration. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 27,
+            "value": "investment",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see my arrear. Can you tell me how i can do that.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "arrear",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to block payroll of an employee. Show me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 23,
+            "value": "block payroll",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to block the payroll of an employee. Show me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 27,
+            "value": "block the payroll",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "From where can i access blocking payroll?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 40,
+            "value": "blocking payroll",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to stop the payroll of an employee. Show me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 26,
+            "value": "stop the payroll",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to end the payroll of an employee. Show me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 25,
+            "value": "end the payroll",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to stop payroll of an employee. Show me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 22,
+            "value": "stop payroll",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to end payroll of an ex-employee. Show me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 21,
+            "value": "end payroll",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to create pay details of an employee. Show me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "pay",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to create a salary structure for an employee. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "salary",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to approve declaration of an employee. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 29,
+            "value": "approve declaration",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "how do i access declaration approval?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 36,
+            "value": "declaration approval",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to fill out the declaration form. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 39,
+            "value": "declaration form",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to declare policies. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 26,
+            "value": "declare policies",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see my deductions. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 27,
+            "value": "deductions",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see my deduction. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "my deduction",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see the deduction of employees. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 40,
+            "value": "deduction of employees",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see deductions of employees. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 37,
+            "value": "deductions of employees",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see deductions of employee. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 36,
+            "value": "deductions of employee",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see employee payslips. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 31,
+            "value": "employee payslips",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see the payslips of all the employees. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 47,
+            "value": "payslips of all the employees",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to access the payslips of employees. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 42,
+            "value": "payslips of employees",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to access pf of employees. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 19,
+            "value": "pf",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to access provident fund of employees. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "provident",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my provident fund details. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "provident",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see the income of previous employees. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "previous",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to declare my extra income. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 33,
+            "value": "extra income",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to declare my extra pay. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "extra pay",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to declare my extra salary. Walk me through it.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 33,
+            "value": "extra salary",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to fill out form16. From where can i access it?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "form16",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to access form 16. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "form 16",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to see my incentive details. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "incentive",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to access my income tax declaration details. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 30,
+            "value": "income tax",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to access my IT details. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 22,
+            "value": "IT",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to access my it details. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 22,
+            "value": "it",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to view my monthly tax declaration. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "monthly",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to set a pay frequency . Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 30,
+            "value": "frequency ",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to add a variable pay for an employee. How do i do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "variable pay",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to create a variable for an employee. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "variable",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to create an employee payroll group. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "payroll",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "I want to run payroll. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 21,
+            "value": "run payroll",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see the final salary of an employee. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 30,
+            "value": "final salary",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to access the salary breakup of employees. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 35,
+            "value": "salary breakup",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to access the employee seperation settings. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 30,
+            "end": 49,
+            "value": "seperation settings",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to set tax rates. Tell me how to do that?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 23,
+            "value": "set tax rates",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "priya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "priya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Tanya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Tanya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Priyanka",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Priyanka",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "divya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "divya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "tanvi",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "tanvi",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Ishita",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ishita",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "vani",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "vani",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Anjali",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Anjali",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Shreya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Shreya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "riya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "riya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Sneha",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Sneha",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Aishwarya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Aishwarya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Gayatri",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Gayatri",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "rahul",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "rahul",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Abhishek",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Abhishek",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Aditya",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Aditya",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Amit",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Amit",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "mahesh",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "mahesh",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "ROHIT",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "ROHIT",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "yash",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "yash",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Ankit",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Ankit",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "shyam",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "shyam",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Deepak",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Deepak",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Aryan",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Aryan",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Raj",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Raj",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Arjun",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Arjun",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Manoj",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Manoj",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "ankur",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "ankur",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "akash",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "akash",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Karan",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Karan",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "rakesh",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "rakesh",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Sam",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Sam",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Naveen",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Naveen",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Ashish",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ashish",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Vinay",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Vinay",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Parth",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Parth",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Mayank",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Mayank",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "i want to schedule an interview",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "interview",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see all tasks",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "all tasks",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to write loi",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "loi",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to assign task",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 21,
+            "value": "assign task",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to fire someone",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "fire",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to see stats",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "stats",
+            "entity": "module"
+          }
+        ]
+      },
+      {
+        "text": "i want to approve an employee after probation",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 45,
+            "value": "approve an employee after probation",
+            "entity": "module"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="chatroom1.css" />
+</head>
+<body>
+  <div class="chat-container"></div>
+
+  <script src="chatroom1.js"/></script>
+  <script type="text/javascript">
+    var chatroom = window.Chatroom({
+      host: "http://localhost:5003",
+      title: "Chat with Val_Bot",
+      container: document.querySelector(".chat-container")
+    });
+
+  </script>
+</body>
+</html>

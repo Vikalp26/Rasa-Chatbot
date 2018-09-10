@@ -1,0 +1,60 @@
+slots:
+  module:
+    type: text
+  name:
+    type: text
+  location:
+    type: text
+    
+intents:
+ - how_u_doing
+ - greet
+ - inform
+ - int_thanksnconfirm
+ - help_recieved
+ - ask_weather
+ - another_doubt
+ - your_name
+ 
+entities:
+ - module
+ - name
+ - location
+ 
+templates:
+  utter_hi_ask_name:
+    - "Hi! What is your good name?"
+    - "Hi! who might you be?"
+    - "Hi! who am I talking to?"
+  utter_nice_day:
+    - "Have a nice day. Goodbye."
+    - "Have a good day. bye bye."
+  utter_glad_helped:
+    - "I am glad that I could help."
+  utter_default:
+    - "Although I appreciate your input, but unfortunately I know only about vE. I would really love to help you with vE."
+  utter_ask_me:
+    - "Go ahead. I am here to help."
+  utter_another_question:
+    - "Do you have any other doubt?"
+    - "Can I help you with anything else?"
+    - "How else can I assist you?"
+  utter_fine:
+    - "I am fine."
+    - "I'm doing great."
+  utter_my_name:
+    - "I am obi wan kenobi. You can call me ObiE."
+  
+actions:
+ - utter_hi_ask_name
+ - utter_nice_day
+ - utter_glad_helped
+ - utter_ask_me
+ - utter_another_question
+ - utter_fine
+ - utter_my_name
+ - utter_default
+ - actions.ActionSlotReset
+ - actions.ActionUserNamenhelp
+ - actions.ActionModule
+ - actions.ActionWeather
