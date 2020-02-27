@@ -1,2 +1,2 @@
-# ObiE-van-Kenobi
-A highly efficient chat-bot that provides ease of navigation to a user who is not familiar with vE software
+This chatbot answers Human Resource Management queries. It is built using rasa core, tensorflow and spacy. The integration with SAP HANA required the use of javascript, HTML and CSS.
+
